@@ -1,3 +1,4 @@
+/* $XdotOrg: xc/programs/xkbcomp/expr.c,v 1.1.4.3.4.1 2004/03/04 17:49:08 eich Exp $ */
 /* $Xorg: expr.c,v 1.5 2000/08/17 19:54:30 cpqbld Exp $ */
 /************************************************************
  Copyright (c) 1994 by Silicon Graphics Computer Systems, Inc.
@@ -245,6 +246,7 @@ static LookupEntry modIndexNames[] = {
 	{	"mod3",		Mod3MapIndex	},
 	{	"mod4",		Mod4MapIndex	},
 	{	"mod5",		Mod5MapIndex	},
+	{	"none",		XkbNoModifier	},
 	{	NULL,		0		}
 };
 
